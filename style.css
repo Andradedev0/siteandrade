@@ -10,8 +10,17 @@ font-family: 'Titillium Web', sans-serif;
 body {
     background-color: #000;
     height: 100vh;
-
 }
+
+main {
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 1280px;
+    margin: auto;
+}
+
+
+
 .interface{
     max-width: 1280px;
     margin: 0 auto;
@@ -23,18 +32,18 @@ body {
 
 .btn-contato button{
     padding: 10px 40px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     background-color: #985eed;
     border: 0;
-    border-radius: 30px;
+    border-radius: 20px;
     cursor: pointer;
-    transition: .2s;
+    transition: .1s;
 }
 
 h2.titulo {
     color:#fff;
-    font-size: 38px;
+    font-size: 35px;
     text-align: center;
 }
 h2.titulo span {
@@ -43,7 +52,7 @@ h2.titulo span {
 
 button:hover, form .btn-eviar input:hover{
     box-shadow: 0px 0px 8px #783ecf;
-    transform: scale(1.05);
+    transform: scale(1.0);
 }
 
 /* ESTILO DO CABEÇALHO*/
@@ -201,6 +210,8 @@ section.sobre .flex{
 section.portfolio{
     padding: 80px 4%;
     box-shadow: 0 0 40px 10px #ffffff1d;
+    border-radius: 20px;
+    text-align: center;
 }
 
 section.portfolio .flex{
@@ -217,6 +228,7 @@ section.portfolio .flex{
     cursor: pointer;
     border-radius: 40px;
     position: relative;
+    
   
 }
 
@@ -250,11 +262,13 @@ section.portfolio .flex{
 /*ESTILO DO FORMULÁRIO DE CONTATO*/
 section.formulario{
     padding: 80px 4%;
+    
 
 }
 
 form{
     max-width: 500px;
+    text-align: center;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -270,7 +284,7 @@ form input, form textarea{
     border: 0;
     outline: 0;
     padding: 20px 15px;
-    border-radius:15px;
+    border-radius:20px;
     color: #fff;
     font: 18px;
     
@@ -304,6 +318,7 @@ form .btn-eviar input {
 
 footer{
     padding: 60px 4%;
+    border-radius: 20px;
     box-shadow: 0 0 40px 10px #ffffff1d;
     
     
@@ -312,25 +327,36 @@ footer{
 footer .flex{
     justify-content: space-between;
     
+    
 }
 
 footer .line-footer{
-    padding: 20px 0;
+    padding: 10px;
     
     
+
 }
 
 footer .logo-footer{
-    margin-right: 850px;
+    display: inline-block;
+    margin-right: 600px;
+    
+
+
+    
 }
 
 .borda {
     border-top: 2px solid #985eed;
+    margin: 0px;
+    
 }
 
 footer .line-footer p i{
     color: #985eed;
     font-size: 22px;
+    margin: 0px;
+    padding: 0px;
     
 
 }
