@@ -1,5 +1,5 @@
 let btnMenu = document.getElementById('btn-menu')
-let menu = document.getElementById('men-mobile')
+let menu = document.getElementById('menu-mobile')
 
 let overlay = document.getElementById('overlay-menu')
 
